@@ -1,0 +1,96 @@
+:root{
+ --verde:#20ee05;
+ --preta: #030303;
+}
+*{
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+
+}
+/*filme-principal*/
+body {
+background: var(--preta);
+font-family: 'Times new roman', times,serif;
+color: white;
+
+}
+
+header .container {
+display: flex;
+flex-direction:row ;
+align-items: center;
+justify-content: space-between;
+}
+header .logo {
+  color: var(--verde);
+  font-family: 'Arial black',times;
+  font-size: 40px;
+}
+header nav a{
+ text-decoration: none;
+color: #aaa;
+margin: 10px;
+
+}
+header nav a:hover{
+  color:  #fff;
+}
+.filme-principal{
+  font-size: 16px;
+  background: url('../img/capa-is.jpg');
+
+  height:400px;
+  background-size:cover;
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+
+}
+.filme-principal .descricao{
+  margin-top: 10px;
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+.titulo{
+  margin-top: 15%;
+  font-size: 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.BOTAO{
+
+  background-color:rgba(0,0,0,.50 );
+  color: rgb(71, 243, 71);
+  padding: 15px 30px;
+  margin-right: 19px ;
+  font-size: 12px;
+cursor: pointer;
+transition: .5s ease all;
+}
+.BOTAO:hover{
+  background-color: white;
+  color: #030303;
+ 
+}
+
+.BOTAO i{
+  margin-right: 30px;
+ border: 5px;
+}
+.container{
+  margin-left: 30px;
+
+}
+.filme-principal.container{
+width: 60%;
+
+
+}
+
+.box-filme{
+  height: 100%;
+  width: 100%;
+  display: block;
+
+}
